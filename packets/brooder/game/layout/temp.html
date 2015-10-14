@@ -1,0 +1,165 @@
+<!--login-->
+<div class="login" data-find='btn'>
+    <header>登录</header>
+    <section>
+        <div class="icondiv">
+            <div class="icon"></div>
+        </div>
+        <form>
+            <div class="name"><label for="iusername"><i  data-icon="fa-perm-identity" class="fa fa-perm-identity" ></i></label><input id="iusername" placeHolder="请输入用户名" value="admin" type="text"/></div>
+            <div class="password"><label for="ipassword"><i class="fa fa-lock-outline" ></i></label><input id="ipassword" value="123456" placeHolder="请输入密码" type="password"/></div>
+            <div class="saveup" style="display:none;"><input id="saveup" type="checkbox"/><label for="saveup">记住密码？</label></div>
+            <div class="submit">登录</div>
+        </form>
+    </section>
+    <footer></footer>
+</div>
+
+<!--doQuestion-->
+<div class="doQuestion doQ">
+    <header class="header">
+    <span class="gen">答题页</span>
+    </header>
+    <section class="power">
+        <div class="status">
+            <img class="headimg" src="./packets/brooder/game/imgs/head_03.jpg" data-find="userinfo"/>
+            <span class="name">洛洛多</span>
+            <span class="s">体力:</span><span class="powervalue">30</span>
+            <div class="areawork">
+                <i class="fa fa-error" style="color:rgb(157, 37, 37);" ></i><div class="errornum">1</div>:<div class="rightnum">2</div>
+                <i class="fa fa-receipt" ></i><div class="workednum">3</div>/<div class="allqnum">30</div>
+            </div>
+        </div>
+        <div class="qtext" style="position:relative;">
+            <div class="question">
+                <div class="box">
+                    <p class="p">晚上最后离开公司未锁大门者，一次罚款300元。晚上最后离开公司未锁大门者，一次罚款300元。晚上最后离开公司未锁大门者，一次罚款300元。晚上最后离开公司未锁大门者，一次罚款300元。晚上最后离开公司未锁大门者，一次罚款300元。晚上最后离开公司未锁大门者，一次罚款300元。晚上最后离开公司未锁大门者，一次罚款300元。晚上最后离开公司未锁大门者，一次罚款300元。</p>
+                </div>
+            </div>
+            <div class="owntime">30</div>
+            <div class="timestatus em"></div>
+            <div class="timestatus pw"></div>
+        </div>
+
+    </section>
+    <div class="footer">
+        <img class="dialogpepo" src="./packets/brooder/game/imgs/Q&A_p_03_03.png" alt="">
+        <div class="dialog">你已经用了10秒了，要加油哦</div>
+    </div>
+    <div class="qbox">
+        <ul class="questionlist cur">
+            <li class="item-list" data-find='item'>
+                <div class="serial">A</div>
+                <div class="conarea">
+                   <div class="content">fdsfdsfds5</div>
+                </div>
+            </li>
+            <li class="item-list"  data-find='item'>
+                <div class="serial">B</div>
+                <div class="conarea">
+                   <div class="content">fdsfdsfds5</div>
+                </div>
+            </li>
+            <li class="item-list"  data-find='item'>
+                <div class="serial">C</div>
+                <div class="conarea">
+                   <div  class="content">dfsdfsfds10fdsfdfdsfdsfdsfdssfsdfdsfsfdsf</div>
+                </div>
+            </li>
+            <li class="item-list"  data-find='item'>
+                <div class="serial">D</div>
+                <div class="conarea">
+                    <div class="content">3fdsfdsfdsfsdfdsfdsfsf</div>
+                </div>
+            </li>
+        </ul>
+         <ul class="questionlist next">
+            <li class="item-list" data-find='item'>
+                <div class="serial">A</div>
+                <div class="conarea">
+                   <div class="content">fdsfdsfds5</div>
+                </div>
+            </li>
+            <li class="item-list"  data-find='item'>
+                <div class="serial">B</div>
+                <div class="conarea">
+                   <div class="content">fdsfdsfds5</div>
+                </div>
+            </li>
+            <li class="item-list"  data-find='item'>
+                <div class="serial">C</div>
+                <div class="conarea">
+                   <div  class="content">dfsdfsfds10fdsfdfdsfdsfdsfdssfsdfdsfsfdsf</div>
+                </div>
+            </li>
+            <li class="item-list"  data-find='item'>
+                <div class="serial">D</div>
+                <div class="conarea">
+                    <div class="content">3fdsfdsfdsfsdfdsfdsfsf</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="submitq">提&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;交</div>
+</div>
+<!-- test2 -->
+<div><%=module('','');%></div>
+
+<!--list-->
+<div class="status">
+    <img class="headimg" src="packets/brooder/game/imgs/head_03.jpg" height="50" width="50" data-find="userinfo"/>
+    <span class="name">洛洛多</span>
+    <div class="dushedline"></div>
+    <span class="s">工种:</span><span class="svalue">钳工</span>
+</div>
+<!--workgenre-->
+<header>选择工种</header>
+<div class='areaFun'>
+    <div class='power'>
+        <div class='iconpower'></div><div class='textpower'>体力:<div class='vpower'>90</div>%</div>
+    </div>
+    <div class='praze fun'>
+        <div class='iconpraze iconfun'></div>
+        <div class='textpraze textfun'>抽奖</div>
+    </div>
+    <div class='setup fun'>
+        <div class='iconsetup iconfun'></div>
+        <div class='textsetup textfun'>设置</div>
+    </div>
+</div>
+<%=module('brooder.game.view.workgenre.workgenrelist','brooder.game.view.workgenre.workgenrelist','workgenreid');%>
+<footer></footer>
+<!--draw-->
+<div class="drawbg">
+    <header>抽奖</header>
+    <div class="box">
+        <div class="pointer"></div>
+        <div class="pointertext"></div>
+    </div>
+    <div class="times">您还有<i>10</i>次机会哦</div>
+    <div class="rollingmsg">
+        <ul>
+            <li>洛洛多中奖啦，耶,张金桥怎么能中奖呢，好不公平啊。。。</li>
+            <li>戴佳琪中奖了。。。。。，呜呜</li>
+            <li>张金桥怎么能中奖呢，好不公平啊。。。</li>
+            <li>大金哥中奖了中奖了，终于中奖了</li>
+            <li>张金桥怎么能中奖呢，好不公平啊。。。</li>
+            <li>戴佳琪中奖了。。。。。，呜呜</li>
+            <li>洛洛多中奖啦，耶</li>
+            <li>张金桥怎么能中奖呢，好不公平啊。。。</li>
+        </ul>
+    </div>
+    <div class='pupwin'>
+        <div class='boxsuccess'>
+            <div class='prasetext'>恭喜！您抽到<i>4</i>等奖。<br>
+            获得牙膏五盒；<br>
+            获得洗衣粉一袋；
+            </div>
+        </div>
+        <div class='boxfailure'>
+            <div class='prasetext'>手气不佳，没有抽到奖品啊</div>
+        </div><div class='cancle'>返回</div>
+<!--        <div class='replay'>再试一次</div>-->
+
+    </div>
+</div>

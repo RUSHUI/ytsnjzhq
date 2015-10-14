@@ -1,0 +1,144 @@
+.list {
+  background: url(../imgs/hero_02.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100%;
+}
+.list ul,
+.list li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.list .status {
+  width: 50%;
+  height: 70px;
+  background-color: transparent;
+  position: relative;
+  left: 25%;
+  top: 18%;
+}
+.list .status img.headimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+.list .status span.name {
+  color: #2b2a61;
+  text-align: center;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0 5px;
+  position: absolute;
+  left: 55px;
+  top: 5px;
+}
+.list .status div.dushedline {
+  border-bottom: 2px dashed red;
+  width: 73%;
+  position: absolute;
+  left: 57px;
+  top: 33px;
+}
+.list .status span.s {
+  font-weight: bold;
+  color: #2b2a61;
+  position: absolute;
+  left: 50px;
+  top: 45px;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+.list .status span.svalue {
+  position: absolute;
+  color: #737070;
+  font-size: 18px;
+  top: 46px;
+  left: 104px;
+}
+.list .datalist {
+  width: 85%;
+  margin: 0 auto;
+  position: relative;
+  top: 110px;
+  height: 65%;
+}
+.list .datalist .item-list:nth-child(1) {
+  border: none;
+  background: #ff5454;
+  color: yellow;
+  font-weight: bold;
+}
+.list .datalist .item-list:nth-child(2) {
+  border: none;
+  background: #ff8d8d;
+  color: #f4f499;
+  font-weight: bold;
+}
+.list .datalist .item-list:nth-child(3) {
+  border: none;
+  background: #ffd2d2;
+  color: #fafac3;
+  font-weight: bold;
+}
+.list .datalist .item-list > div,
+.list .datalist .head > div {
+  line-height: 50px;
+  display: inline-block;
+  text-align: center;
+}
+.list .datalist .item-list .list-name,
+.list .datalist .head .list-name {
+  width: 40%;
+}
+.list .datalist .item-list .list-score,
+.list .datalist .head .list-score {
+  width: 30%;
+}
+.list .datalist .item-list .list-sequence,
+.list .datalist .head .list-sequence {
+  position: relative;
+  width: 50px;
+}
+.list .datalist .item-list .list-sequence > span,
+.list .datalist .head .list-sequence > span {
+  display: inline-block;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  line-height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+.list .datalist .item-list .list-sequence span.one,
+.list .datalist .head .list-sequence span.one {
+  background: red;
+  color: yellow;
+  font-weight: bold;
+}
+.list .datalist .item-list .list-sequence span.two,
+.list .datalist .head .list-sequence span.two {
+  background: #fc5050;
+  color: yellow;
+}
+.list .datalist .item-list .list-sequence span.three,
+.list .datalist .head .list-sequence span.three {
+  background: red;
+}
+.list .datalist .content {
+  overflow-y: scroll;
+  height: 300px;
+}
+.list .datalist .head {
+  border-bottom: 2px solid red;
+  font-size: 20px;
+  color: red;
+}
+.list .datalist .item-list {
+  border-bottom: 1px solid #ffcaca;
+}

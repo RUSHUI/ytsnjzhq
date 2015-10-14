@@ -1,0 +1,23 @@
+{
+    "code": "1",
+    "data": [
+        {
+        	"name":"钳工",
+        	"score":"1000",
+        	"sequence":"1",
+            "cls":"one"
+        },
+        {
+        	"name":"车工",
+        	"score":"1000",
+        	"sequence":"2",
+            "cls":"two"
+        },
+        {
+        	"name":"技师",
+        	"score":"1000",
+        	"sequence":"3",
+            "cls":"three"
+        }
+    ]
+}

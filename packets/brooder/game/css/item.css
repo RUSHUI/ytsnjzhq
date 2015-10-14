@@ -1,0 +1,70 @@
+.itemcls {
+  height: 100%;
+  width: 100%;
+  background-color: #FCF0DD;
+}
+.itemcls .title {
+  line-height: 50px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: #e75757;
+}
+.itemcls .choice {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  background-color: #FCC68A;
+  color: white;
+  border-right: 1px solid #ddd;
+}
+.itemcls .choice > div {
+  line-height: 45px;
+  width: 100%;
+  border-bottom: 1px solid green;
+  text-align: left;
+  text-indent: 5px;
+}
+.itemcls .choice .active {
+  background: #fafafa;
+  color: black;
+}
+.itemcls .itemlist {
+  display: none;
+  vertical-align: top;
+  width: 69.5%;
+}
+.itemcls .itemlist > div > div.active {
+  font-weight: bolder;
+}
+.itemcls .itemlist > div {
+  line-height: 30px;
+  border-bottom: 1px solid #ccc;
+  widtlineh: 100%;
+  text-align: center;
+}
+.itemcls .shuoming {
+  display: inline-block;
+  vertical-align: top;
+  width: 69.5%;
+}
+.itemcls .shuoming .titlecls {
+  line-height: 50px;
+}
+.itemcls .shuoming > div {
+  line-height: 25px;
+  width: 100%;
+  text-align: left;
+  text-indent: 5px;
+}
+.item {
+  height: 100%;
+  width: 100%;
+  background-color: #FCF0DD;
+}
+.item header {
+  line-height: 50px;
+  background: #fa5959;
+  font-size: 20px;
+  text-align: center;
+}

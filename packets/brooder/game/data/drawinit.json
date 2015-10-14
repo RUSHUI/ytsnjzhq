@@ -1,0 +1,33 @@
+{
+    "code": "1",
+    "msg":"获取次数成功",
+    "data": {
+        "times":"5",
+        "turntable":[
+          {
+            "turnname":"一等奖",
+            "turnid":"1"
+          },
+          {
+            "turnname":"二等奖",
+            "turnid":"2"
+          },
+          {
+            "turnname":"三等奖",
+            "turnid":"3"
+          },
+          {
+            "turnname":"四等奖",
+            "turnid":"4"
+          },
+          {
+            "turnname":"五等奖",
+            "turnid":"5"
+          },
+          {
+            "turnname":"谢谢",
+            "turnid":"0"
+          }          
+        ]
+      }
+}

@@ -1,0 +1,469 @@
+body{
+    background: none;
+    font-family:"微软雅黑";
+}
+.login{
+    height: 100%;
+    position: relative;
+    header{
+        line-height: 50px;
+        background: #fa5959;
+        font-size: 20px;
+        text-align: center;
+    }
+    section{
+        height: 400px;	
+        background: white;
+        .icondiv{
+            height: 200px;
+            position: relative;
+            .icon{
+                width: 140px;
+                height: 140px;
+                border-radius: 70px;
+                left: 50%;
+                top: 50%;
+                margin: -70px;
+                background: url(../imgs/login_03.png) center center;                                  
+                background-size: cover;
+                position: absolute;                                  
+            }
+        }
+        form{
+            >div{
+                line-height: 50px;
+                width: 80%;
+                margin:5px auto;
+                border: 1px solid #ccc;
+                label{
+                    width: 20%;
+                    top: 6px;
+                    i{
+                        font-size: 30px;
+                        color: gray;
+                        padding: 0 10px;
+                    }
+                }
+                input{
+                    width: 75%;
+                    letter-spacing: 1px;
+                    font-size: 20px;
+                    /* font-weight: bold; */
+                    border: 0;
+                }
+                input:focus{
+                    background: #FFE4E4;
+                }
+            }
+            .saveup{
+                line-height: 50px;
+                border: 0;
+                >input{
+                    height: 20px;
+                    width: 17%;
+                }
+                >label{
+                    width: 80%;
+                    top: -5px;
+                }
+            }
+            .submit{
+                margin-top: 30px;
+                line-height: 50px;
+                width: 80%;
+                background: rgb(250, 89, 89);
+                text-align: center;
+                border-radius: 7px;
+                font-size: 20px;
+            }
+        }
+    }
+    footer{
+        height: 50px;
+        background: gray;
+        position: fixed;
+        bottom: 0;
+    }
+}
+
+
+/**
+ * login stylesheet end but doquestion stylesheet start
+ *
+ **/
+.doQuestion{
+    color:red;
+    height: 100%;
+      background-color: rgb(252, 240, 221);
+    .popw {
+        position: absolute;
+        left: 34%;
+        width: 120px;
+        background-color: rgb(84, 84, 84);
+        color: white;
+        top: 39%;
+    }
+    header{
+        line-height: 40px;
+        background-color: #e75757;
+        text-align: center;
+        img{
+            width: 25px;
+            height: 20px;
+            position: absolute !important;
+            left: 10px;
+            /* border: 1px solid #020000; */
+            top: 16px;
+        }
+        span{
+            color: white;
+            font-size: 20px;
+        }
+    }
+    .status{
+        height: 60px;
+        background-color: #FCF0DD;
+        position: relative;
+        img.headimg {
+            width: 50px;
+            height: 50px;
+            border-radius: 30px;
+            position: absolute;
+            left: 20px;
+            top: 5px;
+        }
+        span.name {
+            background-color: #e76d6d;
+            border-radius: 11px;
+            color: white;
+            text-align: center;
+            display: inline-block;
+            font-size: 12px;
+            letter-spacing: 1px;
+            padding: 0 5px;
+            position: absolute;
+            left: 80px;
+            top: 10px;
+        }
+        span.s{
+            font-weight: bold;
+            color: black;
+            position: absolute;
+            left: 80px;
+            top: 31px;
+            font-size: 15px;
+        }
+        span.powervalue {
+            position: absolute;
+            color: #FF9696;
+            font-size: 18px;
+            top: 30px;
+            left: 120px;
+        }
+        .b{
+            position: absolute;
+            width: 150px;
+            border-radius: 10px;
+            height: 14px;
+            left: 130px;
+            bottom: 13px;
+        }
+        div.em{
+            background-color: white;
+            z-index: 0;
+        }
+        div.pw {
+            background-color: rgb(73, 73, 86);
+            z-index: 1;
+        }
+        
+        .areawork {
+            position: absolute;
+  width: 150px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.9);
+  right: 10px;
+  top: 15px;
+  font-size: 17px;
+  color: rgb(152, 152, 152);
+  line-height: 35px;
+  text-align: center;
+  border-radius: 15px;
+  .errornum {
+  width: 20px;
+  display: inline-block;
+  color: red;
+  font-weight: bold;
+}
+.rightnum {
+  width: 20px;
+  display: inline-block;
+  color: rgb(23, 215, 23);
+  margin-right: 15px;
+}
+            .workednum {
+                width: 20px;
+  display: inline-block;
+  color: #D2D051;
+  font-weight: bold;
+            }
+            .allqnum {
+                width: 25px;
+                display: inline-block;
+            }
+        }
+    }
+    .question {	    
+        background: url(../imgs/Q&Abg_03.png) no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 164px;
+        width: 320px;
+        height: 185px;
+        width: 360px;
+        position: relative;
+        background-color: #FCF0DD;
+        .box{
+            width: 75%;
+            margin: 0px auto;
+            overflow: auto;
+            padding: 20px 25px;
+            height: 67%;
+            p.p {
+                font-size: 16px;
+                overflow-y: auto;
+                line-height: 24px;
+                margin: 0;
+                letter-spacing: 1px;
+                color: #cdcdcd;
+            }
+        }
+    }
+    .owntime {
+        position: absolute;
+        width: 23px;
+        height: 23px;
+        border-radius: 12px;
+        height: 23px;
+        line-height: 25px;
+        text-align: center;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 0.85);
+        background-color: #d2c4a0;
+        right: 23px;
+        bottom: 8px;
+    }
+    .timestatus {
+        position: absolute;
+        bottom: 6px;
+        width: 300px;
+        height: 5px;
+        left: 35px;
+        border-radius: 10px;
+        transform-origin: center;
+        transform: rotate(0.5deg);
+    }
+    div.em{
+        background-color: white;
+    }
+    div.pw{
+        background-color: rgb(232, 92, 92);
+    }
+   
+    
+    
+    .qbox {  
+        width: 200%;
+        height: 230px;
+        bottom: 35px;
+        margin-top: 30px;
+        overflow-y: auto;
+        ul,li{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        ul{
+            display: inline-block;
+            width: 50%;
+            float: left;
+            position: relative;
+            left: 0;
+            li:first-child{
+                border-top:1px solid white;
+            }
+            li{
+                transition: all 2s ease;
+                height: 55px;
+                border-bottom: 1px solid white;
+                transform-origin: center;
+                transform: rotateX(360deg);                
+            }
+            li.active{
+               // 
+                div.serial{
+                    transform: translateY(-50%) scale(0.8);
+                    background-color: rgb(226, 0, 0)!important;
+                    color: white;
+                }
+            }
+            li.disable{
+                  background-color: rgba(0, 0, 0, 0.18);
+            }
+            .serial {
+                transition: all 2s ease;
+               border: 2px solid red;
+                display: inline-block;
+                width: 30px;
+                text-align: center;
+                height: 30px;
+                line-height: 30px;
+                border-radius: 18px;
+                background-color: white;
+                position: relative;
+                left: 12%;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            
+            .content {
+                word-wrap: break-word;
+                top: 50%;
+                color: black;
+                position: relative;
+                transform: translateY(-50%);
+            }
+            .conarea {
+                position: relative;
+                height: 55px;
+                width: 70%;
+                display: inline-block;
+                vertical-align: top;
+                left: 15%;
+            }
+        }
+    }
+    
+    
+    .submitq {
+        position: absolute;
+        bottom: 0;
+        line-height: 45px;
+        text-align: center;
+        left: 0;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+        right: 0;
+        background-color: #6A3906;
+    }
+   
+    
+
+ 
+    .footer{
+        position: absolute;
+  top: 160px;
+  z-index: 9;
+        img{
+            height: 150px;
+            width: 60px;
+        }
+        .dialog{
+            width: 180px;
+            height: 50px;
+            position: absolute;
+            background-color: #f76161;
+            left: 80px;
+            top: 2px;
+            color: white;
+            border-radius: 20px;
+            padding: 13px 2px 18px 15px;
+            display: none;
+        }
+        .dialog:before{
+            content: " ";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-top: 5px solid transparent;
+            border-right: 20px solid rgb(247, 83, 83);
+            border-bottom: 10px solid transparent;
+            left: -19px;
+            top: 28px;
+        }
+    }
+    .qmask {
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 1);
+        z-index: 15;
+        .ttip {
+            position: absolute;
+            width: 80%;
+            line-height: 40px;
+            margin: 0 auto;
+            color: #4a4a5e;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%);
+            text-align: center;
+            font-size: 25px;
+        }
+        .num {
+            width: 100px;
+            line-height: 85px;
+            height: 100px;
+            text-align: center;
+            background-color: rgb(74, 74, 94);
+            border-radius: 50px;
+            font-size: 50px;
+            position: absolute;
+            font-weight: bold;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%);
+          }
+    }
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.69);
+    z-index: 888;
+    .popExit {
+        position: absolute;
+        width: 200px;
+        height: 150px;
+        background: black;
+        left: 50%;
+        top: 50%;
+        color: white;
+        margin: -100px;
+    }
+    .popExit >div {
+        line-height: 50px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+
+    }
+    .popExit >div:hover{
+        background: darkkhaki;
+    }
+}
+
+
+/**
+ * doquestion css stylesheet end 
+ *
+**/
+
+

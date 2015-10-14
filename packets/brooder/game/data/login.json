@@ -1,0 +1,13 @@
+{
+    "code": "1",
+    "msg":"登录成功",
+    "data": {
+          "userName":"admin",
+          "power":"30",
+          "caste":"2",
+          "department":"女工部",
+          "email":"12345678@bjttsx.com",
+          "tellphone":"15100000110",
+          "passStatus":"0"
+        }
+}

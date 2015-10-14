@@ -1,0 +1,445 @@
+body {
+  background: none;
+  font-family: "微软雅黑";
+}
+.login {
+  height: 100%;
+  position: relative;
+}
+.login header {
+  line-height: 50px;
+  background: #fa5959;
+  font-size: 20px;
+  text-align: center;
+}
+.login section {
+  height: 400px;
+  background: white;
+}
+.login section .icondiv {
+  height: 200px;
+  position: relative;
+}
+.login section .icondiv .icon {
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  left: 50%;
+  top: 50%;
+  margin: -70px;
+  background: url(../imgs/login_03.png) center center;
+  background-size: cover;
+  position: absolute;
+}
+.login section form > div {
+  line-height: 50px;
+  width: 80%;
+  margin: 5px auto;
+  border: 1px solid #ccc;
+}
+.login section form > div label {
+  width: 20%;
+  top: 6px;
+}
+.login section form > div label i {
+  font-size: 30px;
+  color: gray;
+  padding: 0 10px;
+}
+.login section form > div input {
+  width: 75%;
+  letter-spacing: 1px;
+  font-size: 20px;
+  /* font-weight: bold; */
+  border: 0;
+}
+.login section form > div input:focus {
+  background: #FFE4E4;
+}
+.login section form .saveup {
+  line-height: 50px;
+  border: 0;
+}
+.login section form .saveup > input {
+  height: 20px;
+  width: 17%;
+}
+.login section form .saveup > label {
+  width: 80%;
+  top: -5px;
+}
+.login section form .submit {
+  margin-top: 30px;
+  line-height: 50px;
+  width: 80%;
+  background: #fa5959;
+  text-align: center;
+  border-radius: 7px;
+  font-size: 20px;
+}
+.login footer {
+  height: 50px;
+  background: gray;
+  position: fixed;
+  bottom: 0;
+}
+/**
+ * login stylesheet end but doquestion stylesheet start
+ *
+ **/
+.doQuestion {
+  color: red;
+  height: 100%;
+  background-color: #fcf0dd;
+}
+.doQuestion .popw {
+  position: absolute;
+  left: 34%;
+  width: 120px;
+  background-color: #545454;
+  color: white;
+  top: 39%;
+}
+.doQuestion header {
+  line-height: 40px;
+  background-color: #e75757;
+  text-align: center;
+}
+.doQuestion header img {
+  width: 25px;
+  height: 20px;
+  position: absolute !important;
+  left: 10px;
+  /* border: 1px solid #020000; */
+  top: 16px;
+}
+.doQuestion header span {
+  color: white;
+  font-size: 20px;
+}
+.doQuestion .status {
+  height: 60px;
+  background-color: #FCF0DD;
+  position: relative;
+}
+.doQuestion .status img.headimg {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  position: absolute;
+  left: 20px;
+  top: 5px;
+}
+.doQuestion .status span.name {
+  background-color: #e76d6d;
+  border-radius: 11px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 0 5px;
+  position: absolute;
+  left: 80px;
+  top: 10px;
+}
+.doQuestion .status span.s {
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  left: 80px;
+  top: 31px;
+  font-size: 15px;
+}
+.doQuestion .status span.powervalue {
+  position: absolute;
+  color: #FF9696;
+  font-size: 18px;
+  top: 30px;
+  left: 120px;
+}
+.doQuestion .status .b {
+  position: absolute;
+  width: 150px;
+  border-radius: 10px;
+  height: 14px;
+  left: 130px;
+  bottom: 13px;
+}
+.doQuestion .status div.em {
+  background-color: white;
+  z-index: 0;
+}
+.doQuestion .status div.pw {
+  background-color: #494956;
+  z-index: 1;
+}
+.doQuestion .status .areawork {
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.9);
+  right: 10px;
+  top: 15px;
+  font-size: 17px;
+  color: #989898;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 15px;
+}
+.doQuestion .status .areawork .errornum {
+  width: 20px;
+  display: inline-block;
+  color: red;
+  font-weight: bold;
+}
+.doQuestion .status .areawork .rightnum {
+  width: 20px;
+  display: inline-block;
+  color: #17d717;
+  margin-right: 15px;
+}
+.doQuestion .status .areawork .workednum {
+  width: 20px;
+  display: inline-block;
+  color: #D2D051;
+  font-weight: bold;
+}
+.doQuestion .status .areawork .allqnum {
+  width: 25px;
+  display: inline-block;
+}
+.doQuestion .question {
+  background: url(../imgs/Q&Abg_03.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 164px;
+  width: 320px;
+  height: 185px;
+  width: 360px;
+  position: relative;
+  background-color: #FCF0DD;
+}
+.doQuestion .question .box {
+  width: 75%;
+  margin: 0px auto;
+  overflow: auto;
+  padding: 20px 25px;
+  height: 67%;
+}
+.doQuestion .question .box p.p {
+  font-size: 16px;
+  overflow-y: auto;
+  line-height: 24px;
+  margin: 0;
+  letter-spacing: 1px;
+  color: #cdcdcd;
+}
+.doQuestion .owntime {
+  position: absolute;
+  width: 23px;
+  border-radius: 12px;
+  height: 23px;
+  line-height: 25px;
+  text-align: center;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.85);
+  background-color: #d2c4a0;
+  right: 23px;
+  bottom: 8px;
+}
+.doQuestion .timestatus {
+  position: absolute;
+  bottom: 6px;
+  width: 300px;
+  height: 5px;
+  left: 35px;
+  border-radius: 10px;
+  transform-origin: center;
+  transform: rotate(0.5deg);
+}
+.doQuestion div.em {
+  background-color: white;
+}
+.doQuestion div.pw {
+  background-color: #e85c5c;
+}
+.doQuestion .qbox {
+  width: 200%;
+  height: 230px;
+  bottom: 35px;
+  margin-top: 30px;
+  overflow-y: auto;
+}
+.doQuestion .qbox ul,
+.doQuestion .qbox li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.doQuestion .qbox ul {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  position: relative;
+  left: 0;
+}
+.doQuestion .qbox ul li:first-child {
+  border-top: 1px solid white;
+}
+.doQuestion .qbox ul li {
+  transition: all 2s ease;
+  height: 55px;
+  border-bottom: 1px solid white;
+  transform-origin: center;
+  transform: rotateX(360deg);
+}
+.doQuestion .qbox ul li.active div.serial {
+  transform: translateY(-50%) scale(0.8);
+  background-color: #e20000 !important;
+  color: white;
+}
+.doQuestion .qbox ul li.disable {
+  background-color: rgba(0, 0, 0, 0.18);
+}
+.doQuestion .qbox ul .serial {
+  transition: all 2s ease;
+  border: 2px solid red;
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 18px;
+  background-color: white;
+  position: relative;
+  left: 12%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.doQuestion .qbox ul .content {
+  word-wrap: break-word;
+  top: 50%;
+  color: black;
+  position: relative;
+  transform: translateY(-50%);
+}
+.doQuestion .qbox ul .conarea {
+  position: relative;
+  height: 55px;
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+  left: 15%;
+}
+.doQuestion .submitq {
+  position: absolute;
+  bottom: 0;
+  line-height: 45px;
+  text-align: center;
+  left: 0;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  right: 0;
+  background-color: #6A3906;
+}
+.doQuestion .footer {
+  position: absolute;
+  top: 160px;
+  z-index: 9;
+}
+.doQuestion .footer img {
+  height: 150px;
+  width: 60px;
+}
+.doQuestion .footer .dialog {
+  width: 180px;
+  height: 50px;
+  position: absolute;
+  background-color: #f76161;
+  left: 80px;
+  top: 2px;
+  color: white;
+  border-radius: 20px;
+  padding: 13px 2px 18px 15px;
+  display: none;
+}
+.doQuestion .footer .dialog:before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-right: 20px solid #f75353;
+  border-bottom: 10px solid transparent;
+  left: -19px;
+  top: 28px;
+}
+.doQuestion .qmask {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  z-index: 15;
+}
+.doQuestion .qmask .ttip {
+  position: absolute;
+  width: 80%;
+  line-height: 40px;
+  margin: 0 auto;
+  color: #4a4a5e;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  font-size: 25px;
+}
+.doQuestion .qmask .num {
+  width: 100px;
+  line-height: 85px;
+  height: 100px;
+  text-align: center;
+  background-color: #4a4a5e;
+  border-radius: 50px;
+  font-size: 50px;
+  position: absolute;
+  font-weight: bold;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.mask {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.69);
+  z-index: 888;
+}
+.mask .popExit {
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  background: black;
+  left: 50%;
+  top: 50%;
+  color: white;
+  margin: -100px;
+}
+.mask .popExit > div {
+  line-height: 50px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+.mask .popExit > div:hover {
+  background: darkkhaki;
+}
+/**
+ * doquestion css stylesheet end 
+ *
+**/
